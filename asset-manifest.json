@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KKResume/static/css/main.3788e113.chunk.css",
+    "main.css": "/KKResume/static/css/main.4fc9c257.chunk.css",
     "main.js": "/KKResume/static/js/main.243befb5.chunk.js",
     "main.js.map": "/KKResume/static/js/main.243befb5.chunk.js.map",
     "runtime-main.js": "/KKResume/static/js/runtime-main.122ad3d6.js",
@@ -8,9 +8,9 @@
     "static/js/2.79c8b575.chunk.js": "/KKResume/static/js/2.79c8b575.chunk.js",
     "static/js/2.79c8b575.chunk.js.map": "/KKResume/static/js/2.79c8b575.chunk.js.map",
     "index.html": "/KKResume/index.html",
-    "precache-manifest.f82969032e162be33a3e9fe823198caa.js": "/KKResume/precache-manifest.f82969032e162be33a3e9fe823198caa.js",
+    "precache-manifest.356843c72662657c5b2989199ffdf1c2.js": "/KKResume/precache-manifest.356843c72662657c5b2989199ffdf1c2.js",
     "service-worker.js": "/KKResume/service-worker.js",
-    "static/css/main.3788e113.chunk.css.map": "/KKResume/static/css/main.3788e113.chunk.css.map",
+    "static/css/main.4fc9c257.chunk.css.map": "/KKResume/static/css/main.4fc9c257.chunk.css.map",
     "static/js/2.79c8b575.chunk.js.LICENSE.txt": "/KKResume/static/js/2.79c8b575.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/KKResume/static/media/bg.0ad6b87e.jpg",
     "static/media/gmail.png": "/KKResume/static/media/gmail.b9ddd985.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.122ad3d6.js",
     "static/js/2.79c8b575.chunk.js",
-    "static/css/main.3788e113.chunk.css",
+    "static/css/main.4fc9c257.chunk.css",
     "static/js/main.243befb5.chunk.js"
   ]
 }
