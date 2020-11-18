@@ -175,7 +175,8 @@ function PortfolioPage () {
                 <div className="bg-blur-portfoliopage">
                     <div className="header-portfoliopage">
                         <div className='title-portfolio'>
-                            <span className="title-text">PORTFOLiO</span>
+                            <p className="title-text">PORTFOLiO</p>
+                           
                         </div>
                     </div>
                     <div className="body-portfoliopage" >

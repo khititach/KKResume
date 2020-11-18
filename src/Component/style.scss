@@ -435,6 +435,8 @@ $name-side:5vw;
     // justify-content: center;
 
     // transform: scaleY(-1);
+
+    padding-bottom: 10vh;
 }
 
 .bg-skillpage {
@@ -1288,6 +1290,98 @@ img.logo-level {
     }
 
     // contact page
+    .contact-span{
+        font-size: calc(15px + 2vmin);
+        padding-left: 15px;
+    }
+
+    
+    .contact-img{
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+
+    //education 
+        // education page
+        .primary-school {
+            // font-size: calc(20px + 2vmin);
+            // // width: 30vw;
+        
+            // display: grid;
+            // justify-content: start;
+            // text-align: end;
+            padding-left:21vw ;
+    
+            .bg-primary-school{
+                background-color:  #574144;
+                color:#f7ecee ;
+                // width: 41vw;
+                padding-right: 20px;
+                padding-left: 20px;
+                border-radius: 20px;
+                padding-top: 1vh;
+                // height: 12vh;
+            }
+        
+            p:nth-child(1){
+                font-size: calc(15px + 1vmin);
+            }
+            p:nth-child(2) , p:nth-child(3){
+                font-size: calc(10px + 1vmin);
+            }
+        }
+        .high-school {
+            // font-size: calc(20px + 2vmin);
+            // width: 100%;
+            // display: grid;
+            // justify-content: end;
+            padding-right:18vw ;
+            
+        
+            .bg-high-school{
+                background-color:  #574144;
+                color:#f7ecee ;
+                // width: 41vw;
+                padding-left: 10px;
+                border-radius: 20px;
+                padding-top:1vh ;
+                // height: 12vh;
+            }
+        
+            p:nth-child(1){
+                font-size: calc(15px + 1vmin);
+            }
+            p:nth-child(2) , p:nth-child(3){
+                font-size: calc(10px + 1vmin);
+            }
+        }
+    
+            
+        .university {
+            padding-left:22vw ;
+            .bg-university{
+                background-color:  #574144;
+                color:#f7ecee ;
+                // width: 41vw;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 20px;
+                // height: 15vh;
+            }
+        
+            p:nth-child(1){
+                font-size: calc(20px + 1vmin);
+            }
+            p:nth-child(2) , p:nth-child(3){
+                font-size: calc(15px + 1vmin);
+            }
+        }
+
+      
+
+         // contact page
     .contact-span{
         font-size: calc(15px + 2vmin);
         padding-left: 15px;
