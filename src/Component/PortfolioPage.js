@@ -186,8 +186,11 @@ function PortfolioPage () {
                                 <button onClick={changeRoleToStore} className="store-view view-btn">STORE</button>
                             </div>
                         </div>
-                    
+                        <div className="title-role">
+                            <span className="title-role-text">{role}</span>
+                        </div>
                         <div className="project-image" >
+                            
                                 <div className="role-image-div">
                                     <div className="carousel-box ">
                                         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">

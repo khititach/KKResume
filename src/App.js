@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { HashRouter as Router , Switch ,  Route  } from 'react-router-dom';
+import { BrowserRouter as Router , Switch ,  Route  } from 'react-router-dom';
 
 // import logo from './logo.svg';
 import './App.css';
@@ -12,13 +12,13 @@ import HomePage from './Component/HomePage'
 function App() {
   return (
     <>
-      {/* <HomePage /> */}
-      <Router>
+      <HomePage />
+      {/* <Router>
         <Switch>
           
           <Route exact path="/" component={HomePage} />
         </Switch>
-      </Router>
+      </Router> */}
 
     </>
   );
