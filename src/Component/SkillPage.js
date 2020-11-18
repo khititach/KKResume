@@ -16,7 +16,7 @@ function SkillPage () {
                         <table>
                             <thead>
                                 <tr>
-                                    <th colSpan="5" className="table-skill-text">CODiNG SKiLL</th>
+                                    <th colSpan="5" className="table-skill-text">CODiNG SKiLLS</th>
                                 </tr>
                             </thead>
                             <tbody className="level-text-tr">

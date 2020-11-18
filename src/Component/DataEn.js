@@ -40,11 +40,6 @@ export const DataEn = {
         ],
         CodingSkill:[
             {
-                name:'ReactJS',
-                level:'LEARNiNG',
-                image:require('../Image/Logo/react.png')
-            },
-            {
                 name:'HTML',
                 level:'iNTERMiDiATE',
                 image:require('../Image/Logo/html.png')
@@ -73,6 +68,11 @@ export const DataEn = {
                 name:'Bootstrap',
                 level:'BEGiNNER',
                 image:require('../Image/Logo/bootstrap.png')
+            },
+            {
+                name:'ReactJS',
+                level:'LEARNiNG',
+                image:require('../Image/Logo/react.png')
             }
         ],
         LanguageSkill:{

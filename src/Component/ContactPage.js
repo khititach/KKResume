@@ -11,7 +11,7 @@ function ContactPage () {
             <div id="contact" className="App-contact-header">
                 <div className="bg-blur-contactpage">
                     <div className="title-contact">
-                        <span className="title-contact-text">CONTACT</span>
+                        <span className="title-contact-text">CONTACTS</span>
                     </div>
                     <div className="contact-div">
                         <div className="body-contact">
