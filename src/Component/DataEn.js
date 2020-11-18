@@ -160,6 +160,10 @@ export const DataEn = {
         Instagram:{
             name:'shirokitsunee',
             image:require('../Image/Logo/instagram.png')
+        },
+        github:{
+            name:'khititach',
+            image:require('../Image/Logo/github.png')
         }
     }
 
