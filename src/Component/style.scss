@@ -63,7 +63,7 @@ $navbar-text-color: #fae2e5;
     text-align: center;
     width: 70vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 1rem;
     margin-top: 1rem;
 }
 .nav-item {
@@ -721,6 +721,42 @@ img.logo-level {
 
   /* for mobile width 768px  */
 @media screen and (max-width: 768px) {
+
+    // navbar
+
+    .navbar-logo {
+        color:$navbar-text-color;
+        justify-self: start;
+        margin-left: 20px;
+        // cursor: pointer;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .nav-menu {
+        display: grid;
+        grid-template-columns: repeat(7, auto);
+        grid-gap: 10px;
+        list-style: none;
+        text-align: center;
+        width: 70vw;
+        justify-content: end;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+    .nav-item {
+        display: flex;
+        align-items: center;
+        height: 80px;
+        text-decoration: none;
+        color:$navbar-text-color;
+        // font-size: calc(5px + 2vmin);
+        font-size: 1rem;
+        // font-weight: bolder;
+        /* background-color: red; */
+        padding: 0px 2px 0px 2px;
+      }
+
     $name-side:calc(35px + 2vmin);
 
     .name-text {
