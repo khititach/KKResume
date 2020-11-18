@@ -12,13 +12,13 @@ import HomePage from './Component/HomePage'
 function App() {
   return (
     <>
-      {/* <App /> */}
-      <Router>
+      <HomePage />
+      {/* <Router>
         <Switch>
           
           <Route exact path="/" component={HomePage} />
         </Switch>
-      </Router>
+      </Router> */}
 
     </>
   );
