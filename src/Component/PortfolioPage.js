@@ -1,21 +1,22 @@
-import React from 'react'
+import React , { useState } from 'react'
 
 import { DataEn } from './DataEn'
 
 
 
-class PortfolioPage extends React.Component {
+function PortfolioPage () {
 
-    constructor() {
-        super();
-        this.state =  {
-           role: "student"
-        }
+    // constructor() {
+    //     super();
+    //     this.state =  {
+    //        role: "student"
+    //     }
 
        
 
-    }
+    // }
 
+    const [role , setRole] = useState('student')
     // componentWillMount() {
     //     this.setState({
     //         role : ' student'
@@ -23,36 +24,37 @@ class PortfolioPage extends React.Component {
     // }
 
 
-    changeRoleToStudent = () => {
+    const changeRoleToStudent = () => {
     
-        this.setState({ role: 'student' });
+        setRole('student');
      };
-    changeRoleToAdmin = () => {
+    const changeRoleToAdmin = () => {
 
-        this.setState({ role: 'admin' });
+        setRole('admin');
 
     };
-    changeRoleToStore = () => {
+    const changeRoleToStore = () => {
 
-        this.setState({ role: 'store' });
+        setRole('store');
     };
   
-    selectRoleImage = () => {
-      if (this.state.role === 'student') {
+    const selectRoleImage = () => {
+        // console.log(role)
+      if (role === 'student') {
         //   console.log('student')
-          return <this.showStudentImage />
+          return showStudentImage()
       }
-      if (this.state.role === 'admin') {
+      if (role === 'admin') {
         // console.log('admin')
-        return <this.showAdminImage />
+        return showAdminImage()
     }
-    if (this.state.role === 'store') {
+    if (role === 'store') {
         // console.log('admin')
-        return <this.showStoreImage />
+        return showStoreImage()
     }
     }
 
-    showStudentImage = () => {
+    const showStudentImage = () => {
         return(
             <>
                 <ol className="carousel-indicators">
@@ -74,11 +76,11 @@ class PortfolioPage extends React.Component {
                     {DataEn.Portfolio.Project.image.studentImage.map((item,index) => {
                         if (index !== 0) {
                             return(
-                                <div key={index}>
+                                
                                     <div key={index} className="carousel-item">
                                         <img src={item} alt="alt2" key={index} className="role-image" />
                                     </div>
-                                </div>
+                               
                             )
                         }  
                     })}
@@ -88,7 +90,7 @@ class PortfolioPage extends React.Component {
         )
     }
 
-    showAdminImage = () => {
+    const showAdminImage = () => {
         return(
             <>
                 <ol className="carousel-indicators">
@@ -110,11 +112,11 @@ class PortfolioPage extends React.Component {
                     {DataEn.Portfolio.Project.image.adminImage.map((item,index) => {
                         if (index !== 0) {
                             return(
-                                <div key={index}>
+                                
                                     <div key={index} className="carousel-item">
                                         <img src={item} alt="alt2" key={index} className="role-image" />
                                     </div>
-                                </div>
+                               
                             )
                         }  
                     })}
@@ -124,7 +126,7 @@ class PortfolioPage extends React.Component {
         )
     }
 
-    showStoreImage = () => {
+    const showStoreImage = () => {
         return(
             <>
                 <ol className="carousel-indicators">
@@ -146,11 +148,11 @@ class PortfolioPage extends React.Component {
                     {DataEn.Portfolio.Project.image.storeImage.map((item,index) => {
                         if (index !== 0) {
                             return(
-                                <div key={index}>
+                               
                                     <div key={index} className="carousel-item">
                                         <img src={item} alt="alt2" key={index} className="role-image" />
                                     </div>
-                                </div>
+                               
                             )
                         }  
                     })}
@@ -160,7 +162,7 @@ class PortfolioPage extends React.Component {
         )
     }
 
-    render() {
+    
         return (
             <div id="portfolio" className="App-header-portfoliopage">
                 <div className="bg-blur-portfoliopage">
@@ -175,13 +177,13 @@ class PortfolioPage extends React.Component {
                         </div>
                         <div className="select-role-view">
                             <div className="view-btn-div ">
-                                <button onClick={this.changeRoleToStudent} className="student-view view-btn">STUDENT</button>
+                                <button onClick={changeRoleToStudent} className="student-view view-btn">STUDENT</button>
                             </div>
                             <div className="view-btn-div btn-center">
-                                <button onClick={this.changeRoleToAdmin} className="admin-view view-btn">ADMiN</button>
+                                <button onClick={changeRoleToAdmin} className="admin-view view-btn">ADMiN</button>
                             </div>
                             <div className="view-btn-div">
-                                <button onClick={this.changeRoleToStore} className="store-view view-btn">STORE</button>
+                                <button onClick={changeRoleToStore} className="store-view view-btn">STORE</button>
                             </div>
                         </div>
                     
@@ -191,7 +193,7 @@ class PortfolioPage extends React.Component {
                                         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                                             
                                       
-                                            <this.selectRoleImage Component={this.state.role} />
+                                            {selectRoleImage()}
                                             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                                 <span className="sr-only">Previous</span>
@@ -210,7 +212,7 @@ class PortfolioPage extends React.Component {
                 </div>
             </div>
         )
-    }
+    
 }
 
 export default PortfolioPage;

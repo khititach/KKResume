@@ -620,13 +620,18 @@ img.logo-level {
     color: #5c1313;
     padding: 15px 32px;
     font-weight: bolder;
-    
+    // -webkit-transition: all ease 0.8s;
+    // -moz-transition: all ease 0.4s;
+    transition:  0.5s;
 }
 .view-btn:hover {
-    background-color:#5c1313;
+    // background-color:#5c1313;
     border-radius: 10px;
     color: #f7ecee;
+    // animation: hover-btn 1s ease-in;
+    box-shadow: inset 300px 0px 100px 0 #5c1313;
 }
+
 
 .project-image {
     display: flex;
