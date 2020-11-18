@@ -609,6 +609,7 @@ img.logo-level {
 
 .title-role-text {
     font-size: calc(20px + 2vmin);
+    font-weight: bolder;
 }
 
 .view-btn-div{
@@ -632,15 +633,19 @@ img.logo-level {
     // -webkit-transition: all ease 0.8s;
     // -moz-transition: all ease 0.4s;
     transition:  0.5s;
+    &:hover {
+        // background-color:#5c1313;
+        border-radius: 10px;
+        color: #f7ecee;
+        // animation: hover-btn 1s ease-in;
+        box-shadow: inset 300px 0px 100px 0 #5c1313;
+    }
+    &.active {
+        background-color: #5c1313;
+        color: #f7ecee;
+        border-radius: 10px;
+    }
 }
-.view-btn:hover {
-    // background-color:#5c1313;
-    border-radius: 10px;
-    color: #f7ecee;
-    // animation: hover-btn 1s ease-in;
-    box-shadow: inset 300px 0px 100px 0 #5c1313;
-}
-
 
 .project-image {
     display: flex;
@@ -660,7 +665,7 @@ img.logo-level {
 .App-contact-header {
     background: url('../Image/bg.jpg');
     min-height: 100vh;
-    color: #271a1c;
+    color:  #5c1313;
 }
 
 .bg-blur-contactpage {

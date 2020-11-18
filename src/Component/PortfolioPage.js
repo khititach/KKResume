@@ -17,6 +17,7 @@ function PortfolioPage () {
     // }
 
     const [role , setRole] = useState('student')
+    const [isActive , setisActive] = useState('student')
     // componentWillMount() {
     //     this.setState({
     //         role : ' student'
@@ -25,16 +26,16 @@ function PortfolioPage () {
 
 
     const changeRoleToStudent = () => {
-    
+        setisActive('student')
         setRole('student');
      };
     const changeRoleToAdmin = () => {
-
+        setisActive('admin')
         setRole('admin');
 
     };
     const changeRoleToStore = () => {
-
+        setisActive('store')
         setRole('store');
     };
   
@@ -42,19 +43,23 @@ function PortfolioPage () {
         // console.log(role)
       if (role === 'student') {
         //   console.log('student')
-          return showStudentImage()
+        // setisActive('student')
+        return showStudentImage()
       }
       if (role === 'admin') {
         // console.log('admin')
+        // setisActive('admin')
         return showAdminImage()
     }
     if (role === 'store') {
         // console.log('admin')
+        // setisActive('store')
         return showStoreImage()
     }
     }
 
     const showStudentImage = () => {
+        // setisActive('student')
         return(
             <>
                 <ol className="carousel-indicators">
@@ -91,6 +96,7 @@ function PortfolioPage () {
     }
 
     const showAdminImage = () => {
+        // setisActive('admin')
         return(
             <>
                 <ol className="carousel-indicators">
@@ -127,6 +133,7 @@ function PortfolioPage () {
     }
 
     const showStoreImage = () => {
+        // setisActive('store')
         return(
             <>
                 <ol className="carousel-indicators">
@@ -177,18 +184,18 @@ function PortfolioPage () {
                         </div>
                         <div className="select-role-view">
                             <div className="view-btn-div ">
-                                <button onClick={changeRoleToStudent} className="student-view view-btn">STUDENT</button>
+                                <button onClick={changeRoleToStudent} className={isActive === 'student' ? 'student-view view-btn active' : 'student-view view-btn '}>STUDENT</button>
                             </div>
                             <div className="view-btn-div btn-center">
-                                <button onClick={changeRoleToAdmin} className="admin-view view-btn">ADMiN</button>
+                                <button onClick={changeRoleToAdmin} className={isActive === 'admin' ? 'student-view view-btn active' : 'student-view view-btn '}>ADMiN</button>
                             </div>
                             <div className="view-btn-div">
-                                <button onClick={changeRoleToStore} className="store-view view-btn">STORE</button>
+                                <button onClick={changeRoleToStore} className={isActive === 'store' ? 'student-view view-btn active' : 'student-view view-btn '}>STORE</button>
                             </div>
                         </div>
-                        <div className="title-role">
+                        {/* <div className="title-role">
                             <span className="title-role-text">{role}</span>
-                        </div>
+                        </div> */}
                         <div className="project-image" >
                             
                                 <div className="role-image-div">
