@@ -3,13 +3,13 @@ import React from 'react'
 import Footer from './footer'
 
 import {DataEn} from './DataEn'
-import CV from '../Image/AF-cv.pdf'
+import CV from '../Image/Resume_Khititach.pdf'
 
 function ContactPage () {
     function DownloadCV() {
         var link = document.createElement('a');
         link.href = CV;
-        link.download = 'cv.pdf';
+        link.download = 'Resume_Khititach.pdf';
         document.body.appendChild(link);
         link.click();
      
