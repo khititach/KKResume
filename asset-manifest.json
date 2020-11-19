@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/KKResume/static/css/main.71c2e1f9.chunk.css",
-    "main.js": "/KKResume/static/js/main.051ada43.chunk.js",
-    "main.js.map": "/KKResume/static/js/main.051ada43.chunk.js.map",
+    "main.js": "/KKResume/static/js/main.250f13d4.chunk.js",
+    "main.js.map": "/KKResume/static/js/main.250f13d4.chunk.js.map",
     "runtime-main.js": "/KKResume/static/js/runtime-main.122ad3d6.js",
     "runtime-main.js.map": "/KKResume/static/js/runtime-main.122ad3d6.js.map",
     "static/js/2.b442144a.chunk.js": "/KKResume/static/js/2.b442144a.chunk.js",
     "static/js/2.b442144a.chunk.js.map": "/KKResume/static/js/2.b442144a.chunk.js.map",
     "index.html": "/KKResume/index.html",
-    "precache-manifest.2565caea7a3e501e3fa86743d9611c57.js": "/KKResume/precache-manifest.2565caea7a3e501e3fa86743d9611c57.js",
+    "precache-manifest.cb5c3954118da353ed5f6970e750a6d6.js": "/KKResume/precache-manifest.cb5c3954118da353ed5f6970e750a6d6.js",
     "service-worker.js": "/KKResume/service-worker.js",
     "static/css/main.71c2e1f9.chunk.css.map": "/KKResume/static/css/main.71c2e1f9.chunk.css.map",
     "static/js/2.b442144a.chunk.js.LICENSE.txt": "/KKResume/static/js/2.b442144a.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.122ad3d6.js",
     "static/js/2.b442144a.chunk.js",
     "static/css/main.71c2e1f9.chunk.css",
-    "static/js/main.051ada43.chunk.js"
+    "static/js/main.250f13d4.chunk.js"
   ]
 }
