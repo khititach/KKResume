@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2dabecd74d82b50652cac77d334cc6ca",
+    "revision": "86e096a4ba9a4318980caa02752350aa",
     "url": "/KKResume/index.html"
   },
   {
-    "revision": "7e5ac17a90e541b88405",
+    "revision": "80c5ac2f2b7d57616ee7",
     "url": "/KKResume/static/css/main.e0cb2f7a.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KKResume/static/js/2.b442144a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e5ac17a90e541b88405",
-    "url": "/KKResume/static/js/main.829500ac.chunk.js"
+    "revision": "80c5ac2f2b7d57616ee7",
+    "url": "/KKResume/static/js/main.53f54b25.chunk.js"
   },
   {
     "revision": "7558054ce26c63d65c6f",
     "url": "/KKResume/static/js/runtime-main.122ad3d6.js"
   },
   {
-    "revision": "c0c23e5e73d5baffc32a547f61f7357e",
-    "url": "/KKResume/static/media/AF-cv01.c0c23e5e.jpg"
+    "revision": "8d722d365a16c153b3da21f2cb48cb83",
+    "url": "/KKResume/static/media/AF-cv01.8d722d36.jpg"
   },
   {
     "revision": "0ad6b87ed8228bd4983e88c229faece8",
