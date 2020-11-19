@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KKResume/static/css/main.821a4715.chunk.css",
+    "main.css": "/KKResume/static/css/main.71c2e1f9.chunk.css",
     "main.js": "/KKResume/static/js/main.051ada43.chunk.js",
     "main.js.map": "/KKResume/static/js/main.051ada43.chunk.js.map",
     "runtime-main.js": "/KKResume/static/js/runtime-main.122ad3d6.js",
@@ -8,9 +8,9 @@
     "static/js/2.b442144a.chunk.js": "/KKResume/static/js/2.b442144a.chunk.js",
     "static/js/2.b442144a.chunk.js.map": "/KKResume/static/js/2.b442144a.chunk.js.map",
     "index.html": "/KKResume/index.html",
-    "precache-manifest.dfb200bbcbc77c99b5ee8a4e6ee2ac59.js": "/KKResume/precache-manifest.dfb200bbcbc77c99b5ee8a4e6ee2ac59.js",
+    "precache-manifest.2565caea7a3e501e3fa86743d9611c57.js": "/KKResume/precache-manifest.2565caea7a3e501e3fa86743d9611c57.js",
     "service-worker.js": "/KKResume/service-worker.js",
-    "static/css/main.821a4715.chunk.css.map": "/KKResume/static/css/main.821a4715.chunk.css.map",
+    "static/css/main.71c2e1f9.chunk.css.map": "/KKResume/static/css/main.71c2e1f9.chunk.css.map",
     "static/js/2.b442144a.chunk.js.LICENSE.txt": "/KKResume/static/js/2.b442144a.chunk.js.LICENSE.txt",
     "static/media/Resume_Khititach.pdf": "/KKResume/static/media/Resume_Khititach.d3fb6ddb.pdf",
     "static/media/style.scss": "/KKResume/static/media/bg.0ad6b87e.jpg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.122ad3d6.js",
     "static/js/2.b442144a.chunk.js",
-    "static/css/main.821a4715.chunk.css",
+    "static/css/main.71c2e1f9.chunk.css",
     "static/js/main.051ada43.chunk.js"
   ]
 }
