@@ -4,7 +4,7 @@ export const DataEn = {
         FirstName: 'KHiTiTACH',
         LastName:'KAMJOHN',
         JobPosition:'Web Developer',
-        AboutMe:'สวัสดีครับ ผม แอฟ นายกิตติธัช กำจร จบจากมหาวิทยาลัยนเรศวร ผมทำโปรเจคเกี่ยวกับการใช้บัตรนักเรียนจ่ายค่าอาหาร ร้านค้าสามารถเพิ่มเมนูเข้าร้านได้ ผมสนใจศึกษาและทำงานเกี่ยวกับ Web Developer (Back-end Nodejs) และพัฒนาทักษะ Coding ขึ้นไปอีก ',
+        AboutMe:"Hello, I'm AF , Graduated of Naresuan University. I did a project to pay for the food store with student ID card. I am interested in researching and working on for web developers (Backend nodejs) and developing more coding techniques.",
         birth:'AUGUST 16, 1996',
         Address:'406 Moo.4 Tambon Huchang Amphur Banrai Uthai thani 61180'
     },
