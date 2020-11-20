@@ -3,7 +3,7 @@ import React from 'react'
 import Footer from './footer'
 
 import {DataEn} from './DataEn'
-import CV from '../Image/cv_Khititach.pdf'
+import CV from '../Image/cv-khititach.pdf'
 
 function ContactPage () {
     function DownloadCV() {
