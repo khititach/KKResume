@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1fc58facf20e942c9c230098f71ee46",
+    "revision": "52097f972e1f3b3582146869aaa98ded",
     "url": "/KKResume/index.html"
   },
   {
-    "revision": "22db2d61a77c5a1c6d7b",
+    "revision": "e9aec22cd133f79f1870",
     "url": "/KKResume/static/css/main.71c2e1f9.chunk.css"
   },
   {
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KKResume/static/js/2.b442144a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22db2d61a77c5a1c6d7b",
-    "url": "/KKResume/static/js/main.78f394f3.chunk.js"
+    "revision": "e9aec22cd133f79f1870",
+    "url": "/KKResume/static/js/main.ddb6553a.chunk.js"
   },
   {
     "revision": "7558054ce26c63d65c6f",
     "url": "/KKResume/static/js/runtime-main.122ad3d6.js"
   },
   {
-    "revision": "d3fb6ddbdc1dffffa13b1e29762e32bf",
-    "url": "/KKResume/static/media/Resume_Khititach.d3fb6ddb.pdf"
-  },
-  {
     "revision": "0ad6b87ed8228bd4983e88c229faece8",
     "url": "/KKResume/static/media/bg.0ad6b87e.jpg"
+  },
+  {
+    "revision": "ad3c3b382c0a8e48ad9e1d99f73abc75",
+    "url": "/KKResume/static/media/cv-khititach.ad3c3b38.pdf"
   },
   {
     "revision": "381982d85e862f7c1cde6309fbdbc173",
