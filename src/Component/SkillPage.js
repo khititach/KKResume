@@ -24,7 +24,7 @@ function SkillPage () {
                                     <td></td>
                                     <td><span className="level-text">LEARNiNG</span></td>
                                     <td><span className="level-text">BEGiNNER</span></td>
-                                    <td><span className="level-text">iNTERMiDiATE</span></td>
+                                    <td><span className="level-text">iNTERMEDiATE</span></td>
                                     <td><span className="level-text">ADVANCED</span></td>
                                 </tr>
                                 
@@ -42,7 +42,7 @@ function SkillPage () {
                                     level1 = sakuraLogo
                                     level2 = sakuraLogo
                                 }
-                                else if (item.level === 'iNTERMiDiATE') {
+                                else if (item.level === 'iNTERMEDiATE') {
                                     // level3 = item.level;
                                     level1 = sakuraLogo
                                     level2 = sakuraLogo
@@ -80,7 +80,7 @@ function SkillPage () {
                                      <td></td>
                                     <td><span className="level-text">LEARNiNG</span></td>
                                     <td><span className="level-text">BEGiNNER</span></td>
-                                    <td><span className="level-text">iNTERMiDiATE</span></td>
+                                    <td><span className="level-text">iNTERMEDiATE</span></td>
                                     <td><span className="level-text">ADVANCED</span></td>
                                 </tr>
 
@@ -98,7 +98,7 @@ function SkillPage () {
                                     level1 = sakuraLogo
                                     level2 = sakuraLogo
                                 }
-                                else if (langSkill[item].AllLevel === 'iNTERMiDiATE') {
+                                else if (langSkill[item].AllLevel === 'iNTERMEDiATE') {
                                     // level3 = item.level;
                                     level1 = sakuraLogo
                                     level2 = sakuraLogo
@@ -127,7 +127,7 @@ function SkillPage () {
                                 <td colSpan='5'>
                                     <span className="level-text-scale">L = LEARNiNG</span>
                                     <span className="level-text-scale">B = BEGiNNER</span>
-                                    <span className="level-text-scale">i = iNTERMiDiATE</span>
+                                    <span className="level-text-scale">i = iNTERMEDiATE</span>
                                     <span className="level-text-scale">A = ADVANCED</span>
                                 </td>
                             </tr> */}

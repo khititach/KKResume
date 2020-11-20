@@ -41,12 +41,12 @@ export const DataEn = {
         CodingSkill:[
             {
                 name:'HTML',
-                level:'iNTERMiDiATE',
+                level:'iNTERMEDiATE',
                 image:require('../Image/Logo/html.png')
             },
             {
                 name:'CSS',
-                level:'iNTERMiDiATE',
+                level:'iNTERMEDiATE',
                 image:require('../Image/Logo/css.png')
             },
             {
