@@ -793,6 +793,17 @@ img.logo-level {
     $name-side:calc(35px + 2vmin);
 
     .name-text {
+        height: 300px;
+        padding-left: 0vw;
+    }
+    
+    .name-text-bg {
+        display: flex;
+        padding-top: 10vh;
+
+    }
+
+    .name-text {
         
         height: 200px;
         padding-left:10vw;
@@ -814,7 +825,7 @@ img.logo-level {
     .col-content {
         display: flex;
         flex-direction: column;
-        padding-top: 0vh;
+        padding-top: 5vh;
     }
 
     .col-contect-div {
@@ -832,14 +843,15 @@ img.logo-level {
         display: flex;
         justify-content:flex-end;
         padding-right:0px;
-        padding-bottom:10px;
+        padding-bottom:5vh;
         // align-items: center;
     }
     
     .Profile-image {
         // width: 50vw;
-        height: 50vh;
+        height: 30vh;
     }
+
 
     .birth-div {
         padding-right: 0vw;
