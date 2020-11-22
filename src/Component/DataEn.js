@@ -109,42 +109,39 @@ export const DataEn = {
                 studentImage:[
                     // student
                         // home page
-                    'https://lh3.googleusercontent.com/fife/ABSRlIqAAh5JPKlh28eF8EOnMTbbBLqC3SCfSxQi1UavcCGEU6nBilr0SQMGUyF_lUGOdP-BpHOIEoT7bQqYPmK5luRXFsepE9TDq5FOdKsCXcdhwsLige3B69ugqUreqeDadJU9wYWGjSYY35XBVurgXi3fbzPIDshirJfvvIE_ucQ-niw5k37Zhf9KeJm46mVGegrnKCXla4ofyJvTO96asUcilL942w5VxeZn2Vg4-rWwt8rxVI7Ib9A4Ocr6ReJY571Tb2Yriqm3GIpkdgByylTyfdwg4byYxGRl7DJeAji4GkP9u6inGHA_RyZTQjXlf3Zs4jRwas7ePm8C8QeS6E1FoJbWx_LUTB817NiLFzXA2INAss1Yx7jFlRqYSHkQuPIaCdSzIQ6twp61WOcUhcjd2gFslJ1vBGj7BGV8ZdpTsTOb6SWxdoorS7J6cGbHLORqOIroKiBqPxWVWSQ1I6NTgxTTr1Bo7m0_1nz0z4__0aivBjLVuTxuXb2Suee-AXN45yXhbuyk4KD4vxSO_X6rtEvG_jfZrnUdCIsShJXEYUpuEPGEHIg9XEsglGOhyy3npvMpLxIHy9f-rYzSulAJ4L__VWVMFGqQeTC7wX8UuNPZQlxXGVqYFPUCLrpPDO52wmNOeuMHeCasJAadIEKQ10woP5mYyEUj1TakDGcICa5jKFKN5p7wKzOKDs-DbP3OQtFgusW_QYwwT0u1zdxt7Bi6Ocs6_Q=w1600-h767-ft',
+                    require('../Image/Project/student_home_1.jpg'),
                         // hitory page
-                    'https://lh3.google.com/u/0/d/1e2LT2hcVO8oPrTB4G7MuOzZjPECKeLb8=w1600-h767-iv2',
+                    require('../Image/Project/student_history_1.jpg'),                    
                         // hitory page - cal
-                    'https://lh3.google.com/u/0/d/1Ilyf1czmeGTgGpyuNl1wePFi8Y9wzQoA=w1600-h767-iv2',
-                        // hitory page - detail bill
-                    'https://lh3.google.com/u/0/d/1qx1PCZpvaCxUBoKEYm7AXlXk76BPgDPL=w1600-h767-iv2'
-                ],
+                    require('../Image/Project/student_history_table_1.jpg'),                     
+                       // hitory page - detail bill
+                    require('../Image/Project/student_history_table_2.jpg'),                ],
                 adminImage:[
                     // admin
                         // home page and top up
-                    'https://lh3.google.com/u/0/d/1fqwO35texaqpqsUXqFwMfdBJHwsWSJ6S=w1600-h767-iv1',
+                        require('../Image/Project/topup_1.jpg'),                              
                         // reg store page
-                    'https://lh3.google.com/u/0/d/16fLlGM8JFL7NgvQ1lT7JcBhwEs3fbNpT=w1600-h767-iv1',
+                        require('../Image/Project/store_register_1.jpg'),                           
                         // view store 
-                    'https://lh3.google.com/u/0/d/1uqeMrEbfU6NGRUoNW_PBkHsYYTLXsQzO=w1600-h767-iv1',
+                        require('../Image/Project/view_data_store_1.jpg'),                           
                         // category page - food list
-                    'https://lh3.google.com/u/0/d/1tx7h908YRTyhDDU94Vny4ZpobQ_nvGzv=w1600-h767-iv2',
+                        require('../Image/Project/admin_category_new_1.jpg'),                           
                         // category page - food add
-                    'https://lh3.google.com/u/0/d/1EVrTNSSeySzIvxRb4fAJuaLMTfof5szV=w1600-h767-iv2'
-                ],
+                        require('../Image/Project/admin_add_category_new_1.jpg'),                   
+                    ],
                 storeImage:[
                         // store
                         // home page
-                    'https://lh3.google.com/u/0/d/1-wuO5m-UAB0E2DSS53St0k1f1gXAU4nT=w1600-h767-iv2',
+                        require('../Image/Project/store_sell_food_1.jpg'),                             
                         // hitory page
-                    'https://lh3.google.com/u/0/d/1Zx7uMTB5jWNO1EoAbZXwJAFRocULJhFP=w1600-h767-iv2',
-                        // hitory page - income table
-                    // 'https://lh3.google.com/u/0/d/1GsVATunvm6b5zGkhO91aXBnOvilsvhEd=w1600-h767-iv1',
-                        // hitory page - bill list
-                    'https://lh3.google.com/u/0/d/1nszLO_7TTbiBFFnq1dKKIhM8c2bGlufG=w1600-h767-iv2',
-                        // hitory page - bill detail
-                    'https://lh3.google.com/u/0/d/1K1EBWfAyUgGHd-rj-w7Zl_xwebSe6gTh=w1600-h767-iv2',
-                        // hitory page - sell count
-                    'https://lh3.google.com/u/0/d/16ZXX3-n37YZwctZIilzhc30pHAQ86VJp=w1600-h767-iv2'
-                ]
+                        require('../Image/Project/store_history_1.jpg'),                          
+                           // hitory page - sell count
+                        require('../Image/Project/store_history_sell_count1.jpg'),   
+                            // hitory page - bill list
+                        require('../Image/Project/store_history_table_1.jpg'),                            
+                         // hitory page - bill detail
+                        require('../Image/Project/store_history_table_2.jpg')                    
+                    ]
             }
         }
     },
