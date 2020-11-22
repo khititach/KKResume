@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/KKResume/static/css/main.0974813b.chunk.css",
-    "main.js": "/KKResume/static/js/main.ddb6553a.chunk.js",
-    "main.js.map": "/KKResume/static/js/main.ddb6553a.chunk.js.map",
+    "main.js": "/KKResume/static/js/main.926fabc9.chunk.js",
+    "main.js.map": "/KKResume/static/js/main.926fabc9.chunk.js.map",
     "runtime-main.js": "/KKResume/static/js/runtime-main.122ad3d6.js",
     "runtime-main.js.map": "/KKResume/static/js/runtime-main.122ad3d6.js.map",
     "static/js/2.b442144a.chunk.js": "/KKResume/static/js/2.b442144a.chunk.js",
     "static/js/2.b442144a.chunk.js.map": "/KKResume/static/js/2.b442144a.chunk.js.map",
     "index.html": "/KKResume/index.html",
-    "precache-manifest.c787c14938f71ad8e23e6d2fa8bbe7fd.js": "/KKResume/precache-manifest.c787c14938f71ad8e23e6d2fa8bbe7fd.js",
+    "precache-manifest.4a2a6c318ba9a5eab0aa0a0b1975e52d.js": "/KKResume/precache-manifest.4a2a6c318ba9a5eab0aa0a0b1975e52d.js",
     "service-worker.js": "/KKResume/service-worker.js",
     "static/css/main.0974813b.chunk.css.map": "/KKResume/static/css/main.0974813b.chunk.css.map",
     "static/js/2.b442144a.chunk.js.LICENSE.txt": "/KKResume/static/js/2.b442144a.chunk.js.LICENSE.txt",
+    "static/media/admin_add_category_new_1.jpg": "/KKResume/static/media/admin_add_category_new_1.ac7b0f4f.jpg",
+    "static/media/admin_category_new_1.jpg": "/KKResume/static/media/admin_category_new_1.e9a9f619.jpg",
     "static/media/style.scss": "/KKResume/static/media/bg.0ad6b87e.jpg",
     "static/media/cv-khititach.pdf": "/KKResume/static/media/cv-khititach.ad3c3b38.pdf",
     "static/media/github.png": "/KKResume/static/media/github.381982d8.png",
@@ -25,12 +27,24 @@
     "static/media/nodejs.png": "/KKResume/static/media/nodejs.14c80506.png",
     "static/media/react.png": "/KKResume/static/media/react.448ca321.png",
     "static/media/sakura-logo.png": "/KKResume/static/media/sakura-logo.8fc900ea.png",
+    "static/media/store_history_1.jpg": "/KKResume/static/media/store_history_1.68425625.jpg",
+    "static/media/store_history_sell_count1.jpg": "/KKResume/static/media/store_history_sell_count1.5b33b707.jpg",
+    "static/media/store_history_table_1.jpg": "/KKResume/static/media/store_history_table_1.f3a2e810.jpg",
+    "static/media/store_history_table_2.jpg": "/KKResume/static/media/store_history_table_2.2ff3f7da.jpg",
+    "static/media/store_register_1.jpg": "/KKResume/static/media/store_register_1.cbd75150.jpg",
+    "static/media/store_sell_food_1.jpg": "/KKResume/static/media/store_sell_food_1.4b68d2d7.jpg",
+    "static/media/student_history_1.jpg": "/KKResume/static/media/student_history_1.1dce3f25.jpg",
+    "static/media/student_history_table_1.jpg": "/KKResume/static/media/student_history_table_1.789dd531.jpg",
+    "static/media/student_history_table_2.jpg": "/KKResume/static/media/student_history_table_2.aed21022.jpg",
+    "static/media/student_home_1.jpg": "/KKResume/static/media/student_home_1.1ce45711.jpg",
+    "static/media/topup_1.jpg": "/KKResume/static/media/topup_1.05d2f145.jpg",
+    "static/media/view_data_store_1.jpg": "/KKResume/static/media/view_data_store_1.f876f1bb.jpg",
     "static/media/visual-studio-code.png": "/KKResume/static/media/visual-studio-code.ceffd817.png"
   },
   "entrypoints": [
     "static/js/runtime-main.122ad3d6.js",
     "static/js/2.b442144a.chunk.js",
     "static/css/main.0974813b.chunk.css",
-    "static/js/main.ddb6553a.chunk.js"
+    "static/js/main.926fabc9.chunk.js"
   ]
 }
